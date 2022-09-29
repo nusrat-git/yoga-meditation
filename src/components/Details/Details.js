@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Details.css';
 
 const Details = ({ newActivityDetail }) => {
@@ -9,13 +9,20 @@ const Details = ({ newActivityDetail }) => {
         totalTime = totalTime + activity.time;
     }
 
-    const [breakTime, setBreakTime]= useState(0)
+    const [breakTime, setBreakTime] = useState(0);
+
+    useEffect(()=>{
+        const storedTime = localStorage.getItem('Break-time');
+        if(storedTime !== breakTime){
+            setBreakTime(storedTime);
+        }
+    },[breakTime])
 
     const selectBreak = timeValue => {
-    
+
         const newBreakTime = timeValue;
         setBreakTime(newBreakTime);
-        
+
         localStorage.setItem('Break-time', JSON.stringify(newBreakTime));
 
     }
