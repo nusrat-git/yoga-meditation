@@ -3,19 +3,16 @@
 
 
 .nav{
-    /* margin: 2%; */
     
     background-color: #182747;
     color: white;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav h1{
-    font-family: 'Poppins';
-    font-size: 40px;
-    margin: 0;
+.logo img{
+    width: 80%;
 }
 .nav a{
     font-family: 'Poppins';
