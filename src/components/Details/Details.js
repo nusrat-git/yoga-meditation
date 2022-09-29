@@ -10,6 +10,8 @@ const Details = ({ newActivityDetail }) => {
         totalTime = totalTime + activity.time;
     }
 
+
+
     const [breakTime, setBreakTime] = useState(0);
 
     useEffect(() => {
@@ -17,7 +19,7 @@ const Details = ({ newActivityDetail }) => {
         if (storedTime !== breakTime) {
             setBreakTime(storedTime);
         }
-    }, [breakTime])
+    }, [])
 
     const selectBreak = timeValue => {
 

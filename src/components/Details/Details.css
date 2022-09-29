@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
 
-.profile{
+.profile {
     text-align: center;
 }
-.pro-img{
+
+.pro-img {
     width: 20%;
     border-radius: 50%;
 }
+
 .details {
     position: sticky;
     top: 0;
@@ -24,16 +26,16 @@
     justify-content: center;
 }
 
-h1{
+h1 {
     font-family: 'Poppins';
     font-weight: 600;
 }
 
-p{
+p {
     font-family: 'Poppins';
 }
 
-.break{
+.break {
     text-align: center;
     padding: 20px;
 }
@@ -83,4 +85,16 @@ p{
 
 .complete-btn:hover {
     background-color: #D2D79F;
+}
+
+@media screen and (max-width:767px) {
+
+
+    .exercise-time,
+    .break-time {
+        flex-direction: column;
+    }
+
+
+
 }
