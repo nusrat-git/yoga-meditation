@@ -15,7 +15,8 @@ const Details = ({ newActivityDetail }) => {
     
         const newBreakTime = timeValue;
         setBreakTime(newBreakTime);
-        console.log(newBreakTime);
+        
+        localStorage.setItem('Break-time', JSON.stringify(newBreakTime));
 
     }
 
