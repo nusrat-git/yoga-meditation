@@ -17,9 +17,10 @@ const Meditation = () => {
     }, [])
 
     const selectActivity = activity => {
-        const newActivityDetail = [...activityDetail, activity]
-        setActivityDetail(newActivityDetail)
-        // console.log(newActivityDetail.length, newActivityDetail);
+
+        const newActivityDetail = [...activityDetail, activity];
+        setActivityDetail(newActivityDetail);
+        
     }
 
     return (
@@ -43,7 +44,7 @@ const Meditation = () => {
                 </div>
 
                 <div className='detail-bg'>
-                    <Details></Details>
+                    <Details newActivityDetail={activityDetail}></Details>
                 </div>
 
             </div>
