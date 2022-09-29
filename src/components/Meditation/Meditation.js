@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Details from '../Details/Details';
+import Question from '../Questions/Question';
 import './Meditation.css'
 
 const Meditation = () => {
@@ -20,7 +21,7 @@ const Meditation = () => {
 
         const newActivityDetail = [...activityDetail, activity];
         setActivityDetail(newActivityDetail);
-        
+
     }
 
     return (
@@ -33,19 +34,24 @@ const Meditation = () => {
 
                 <div className='activities'>
                     {
-                        activities.map(activity => <Activity 
-                            activity={activity} 
-                            key={activity.id} 
+                        activities.map(activity => <Activity
+                            activity={activity}
+                            key={activity.id}
                             selectActivity={selectActivity}
-                            >
-                            
-                            </Activity>)
+                        >
+
+                        </Activity>)
                     }
                 </div>
 
                 <div className='detail-bg'>
                     <Details newActivityDetail={activityDetail}></Details>
                 </div>
+
+
+            </div>
+            <div>
+                <Question></Question>
 
             </div>
         </div>
