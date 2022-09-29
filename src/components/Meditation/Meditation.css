@@ -1,5 +1,9 @@
+
 .meditation{
     margin: 5%;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 50px;
 }
 .activities{
     display: grid;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Details from '../Details/Details';
 import './Meditation.css'
 
 const Meditation = () => {
@@ -23,8 +24,8 @@ const Meditation = () => {
                 }
             </div>
 
-            <div>
-                
+            <div className='detail-bg'>
+                <Details></Details>
             </div>
             
         </div>

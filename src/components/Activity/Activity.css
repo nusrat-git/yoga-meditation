@@ -1,6 +1,7 @@
 .activity {
     box-shadow: rgba(100, 100,    111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
+    position: relative;
 
 }
 
@@ -10,7 +11,9 @@
 }
 
 .pose-info {
-    padding: 20px;
+    padding: 30px;
+    position: relative;
+    bottom: 35px;
 }
 
 .add-btn {
@@ -18,7 +21,10 @@
     padding: 15px;
     font-size: large;
     font-weight: bolder;
-    background-color: #B6E388;
+    background-color: #647E68   ;
     border: none;
     border-radius: 0 0 20px 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
 }
