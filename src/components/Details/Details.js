@@ -19,7 +19,7 @@ const Details = ({ newActivityDetail }) => {
         if (storedTime !== breakTime) {
             setBreakTime(storedTime);
         }
-    }, [])
+    }, [breakTime]);
 
     const selectBreak = timeValue => {
 
