@@ -1,15 +1,36 @@
-.today-activity{
+.today-activity {
     margin-left: 8%;
     margin-top: 4%;
 }
-.meditation{
+
+.meditation {
     margin: 5%;
     display: grid;
     grid-template-columns: 4fr 2fr;
     gap: 50px;
 }
-.activities{
+
+.activities {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+/* mobile responsive */
+
+
+@media screen and (max-width: 767px) {
+
+    .meditation {
+        margin: 2%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
 }

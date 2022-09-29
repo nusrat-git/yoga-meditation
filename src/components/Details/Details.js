@@ -11,8 +11,6 @@ const Details = ({ newActivityDetail }) => {
 
     const [breakTime, setBreakTime]= useState(0)
 
-    // let breakTime = 0;
-
     const selectBreak = timeValue => {
     
         const newBreakTime = timeValue;
@@ -56,9 +54,6 @@ const Details = ({ newActivityDetail }) => {
                     <button className='break-btn' onClick={() => selectBreak(50)}>50s</button>
                 </div>
             </div>
-            {/* <div>
-                <ExerciseDetails></ExerciseDetails>
-            </div> */}
             <div>
                 <h1>Exercise Details</h1>
                 <div className='exercise-time'>
