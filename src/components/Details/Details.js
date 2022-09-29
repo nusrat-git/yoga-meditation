@@ -32,9 +32,6 @@ const Details = ({ newActivityDetail }) => {
         <div className='details'>
             <div className='profile'>
                 <div>
-                    <img src="" alt="" />
-                </div>
-                <div>
                     <h1>Nusrat Jahan</h1>
                     <p>Dhaka,Bangladesh</p>
                 </div>

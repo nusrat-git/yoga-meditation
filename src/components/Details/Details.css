@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
+
+
+.pro-img img{
+    width: 50%;
+}
+.profile{
+    text-align: center;
+}
 .details {
     position: sticky;
     top: 0;
@@ -11,9 +20,26 @@
 .physical-info {
     display: flex;
     gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Poppins';
+}
+
+.break{
+    text-align: center;
+    padding: 20px;
 }
 
 .break-btn {
+    font-family: 'Poppins';
     border: none;
     border-radius: 50%;
     padding: 10px;
@@ -26,8 +52,11 @@
     background-color: #D2D79F;
 }
 
+
+
 .exercise-time,
 .break-time {
+    /* font-weight: 100; */
     background-color: #182747;
     padding: 5px 15px;
     margin-bottom: 10px;

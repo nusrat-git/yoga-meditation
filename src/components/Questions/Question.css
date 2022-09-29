@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
+
+
 
 .reveal p{
     font-size: 30px;
@@ -18,7 +21,7 @@
     background-color: #EEF2E6;
 }
 
-h1 {
+.question h1 {
     text-align: center;
 }
 
