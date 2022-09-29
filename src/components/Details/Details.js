@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Toast from '../Toast/Toast';
 import './Details.css';
+
 
 const Details = ({ newActivityDetail }) => {
 
@@ -11,12 +13,12 @@ const Details = ({ newActivityDetail }) => {
 
     const [breakTime, setBreakTime] = useState(0);
 
-    useEffect(()=>{
+    useEffect(() => {
         const storedTime = localStorage.getItem('Break-time');
-        if(storedTime !== breakTime){
+        if (storedTime !== breakTime) {
             setBreakTime(storedTime);
         }
-    },[breakTime])
+    }, [breakTime])
 
     const selectBreak = timeValue => {
 
