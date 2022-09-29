@@ -1,7 +1,8 @@
 import React from 'react';
 import './Activity.css'
 
-const Activity = ({ activity }) => {
+const Activity = ({ activity, selectActivity}) => {
+    // console.log(selectActivity)
     const { image, name, age, time } = activity;
 
     return (
@@ -14,7 +15,7 @@ const Activity = ({ activity }) => {
                 <p>For age : {age}</p>
                 <p>Time required : {time}</p>
             </div>
-            <button className='add-btn'>Add to list</button>
+            <button onClick={()=>selectActivity(activity)} className='add-btn'>Add to list</button>
         </div>
     );
 };

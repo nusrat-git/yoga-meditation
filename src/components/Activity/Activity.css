@@ -28,3 +28,6 @@
     position: absolute;
     bottom: 0;
 }
+.add-btn:hover {
+    background-color: #D2D79F;
+}

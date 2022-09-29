@@ -1,4 +1,4 @@
-.details{
+.details {
     position: sticky;
     top: 0;
     /* right: 100px; */
@@ -7,12 +7,13 @@
     border-radius: 20px;
 
 }
-.physical-info{
+
+.physical-info {
     display: flex;
     gap: 40px;
 }
 
-.break-btn{
+.break-btn {
     border: none;
     border-radius: 50%;
     padding: 10px;
@@ -20,7 +21,12 @@
     color: white;
     margin-right: 5px;
 }
-.complete-btn{
+
+.break-btn:hover {
+    background-color: #D2D79F;
+}
+
+.complete-btn {
     width: 100%;
     margin-top: 20px;
     padding: 15px 20px;
@@ -32,4 +38,8 @@
     font-size: 20px;
 
 
+}
+
+.complete-btn:hover {
+    background-color: #42855B;
 }
