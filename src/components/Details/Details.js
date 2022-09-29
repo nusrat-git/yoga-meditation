@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Details.css';
-
+import profile from '../../profile.jpg';
 
 const Details = ({ newActivityDetail }) => {
 
@@ -28,9 +28,11 @@ const Details = ({ newActivityDetail }) => {
 
     }
 
+
     return (
         <div className='details'>
             <div className='profile'>
+                <img src={profile} alt="" className='pro-img' />
                 <div>
                     <h1>Nusrat Jahan</h1>
                     <p>Dhaka,Bangladesh</p>

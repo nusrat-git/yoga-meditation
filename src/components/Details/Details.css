@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
 
-
-.pro-img img{
-    width: 50%;
-}
 .profile{
     text-align: center;
+}
+.pro-img{
+    width: 20%;
+    border-radius: 50%;
 }
 .details {
     position: sticky;
