@@ -1,65 +1,74 @@
 [
     {
-        "images": "",
-        "name": "Duke",
+        "id": "63347545131f93605565da38",
+        "image": "./images/bridge-pose.jpg",
+        "name": "Bridge Pose",
+        "description": "Java",
+        "age": "22 - 40",
+        "time": 40
+    },
+    {
+        "id": "63347545ccfd967b8e05ef30",
+        "image": "./images/corpose-pose.jpg",
+        "name": "Corpose Pose",
+        "description": "Java",
+        "age": "16 - 20",
+        "time": 60
+    },
+    {
+        "id": "63347545c90bc738e1cbda77",
+        "image": "./images/dolphin-pose.jpg",
+        "name": "Dolphin Pose",
+        "description": "Java",
+        "age": "25 - 30",
+        "time": 30
+    },
+    {
+        "id": "633475451d08b032921946eb",
+        "image": "./images/half-moon-pose.jpg",
+        "name": "Half-Moon Pose",
+        "description": "Java",
+        "age": "18 - 30",
+        "time": 50
+    },
+    {
+        "id": "6334754516f70bb7d9b395a8",
+        "image": "./images/plank-pose.jpg",
+        "name": "Plank Pose",
         "description": "Java",
         "age": "18 - 24",
         "time": 30
     },
     {
-        "images": "",
-        "name": "Duke",
+        "id": "6334754561b99718e88e16c8",
+        "image": "./images/seated-forward-pose.jpg",
+        "name": "Seated-forward Pose",
         "description": "Java",
-        "age": "18 - 24",
-        "time": 30
+        "age": "20 - 28",
+        "time": 60
     },
     {
-        "images": "",
-        "name": "Duke",
+        "id": "6334754523d2799152ef030e",
+        "image": "./images/tree-pose.jpg",
+        "name": "Tree Pose",
         "description": "Java",
-        "age": "18 - 24",
-        "time": 30
+        "age": "22 - 26",
+        "time": 40
     },
     {
-        "images": "",
-        "name": "Duke",
+        "id": "63347545171db580cabe73bb",
+        "image": "./images/triangle-pose.jpg",
+        "name": "Triangle Pose",
         "description": "Java",
-        "age": "18 - 24",
-        "time": 30
+        "age": "20 - 24",
+        "time": 35
     },
     {
-        "images": "",
-        "name": "Duke",
+        "id": "63347545a1364d1480ad67a2",
+        "image": "./images/warrior-pose.jpg",
+        "name": "Warrior Pose",
         "description": "Java",
-        "age": "18 - 24",
-        "time": 30
-    },
-    {
-        "images": "",
-        "name": "Duke",
-        "description": "Java",
-        "age": "18 - 24",
-        "time": 30
-    },
-    {
-        "images": "",
-        "name": "Duke",
-        "description": "Java",
-        "age": "18 - 24",
-        "time": 30
-    },
-    {
-        "images": "",
-        "name": "Duke",
-        "description": "Java",
-        "age": "18 - 24",
-        "time": 30
-    },
-    {
-        "images": "",
-        "name": "Duke",
-        "description": "Java",
-        "age": "18 - 24",
-        "time": 30
+        "age": "20 - 35",
+        "time": 45
     }
 ]
